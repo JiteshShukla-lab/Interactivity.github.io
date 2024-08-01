@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Fill in the Blanks</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Write the names of these aquatic animals.</h1>
+            <button class="audio">
+                <img id="headeraudio" src="assets/img/volume.png" alt="audio icon">
+                <audio id="audio" nocontrols  >
+                    <source src="assets/audio/bgaudio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                
+                </button>
+        </div>
+
+        <audio id="lose" nocontrols  >
+            <source src="assets/audio/try-again.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <audio id="win" nocontrols  >
+            <source src="assets/audio/well-done.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+
+
+        <div class="itemContainer">
+
+            <div class="mainContainer">
+                
+            </div>
+        </div>
+
+        <div class="footer">
+            <button disabled id="btnsubmit" class="notAllowed">Submit</button>
+            <button disabled id="btnanswer" class="notAllowed">Answer</button>
+            <button  id="btnreset" class="allowed">Reset</button>
+        </div>
+    </div>
+    <div class="modalContainer">
+        <div class="modal">
+           
+           
+        </div>
+    </div>
+    
+</body>
+
+<script src="assets/index.js"></script>
+</html>
